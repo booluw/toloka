@@ -1,5 +1,7 @@
 import { lazy } from "react"
 
+export const APP_NAME = "Afrik"
+
 export const ROUTES = [
   {
     path: '/',

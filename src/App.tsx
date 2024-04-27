@@ -1,11 +1,12 @@
-// import { useState } from 'react'
-// import reactLogo from './assets/react.svg'
+import Navbar from './components/Navbar.jsx';
+import Landing from "./components/Landing.jsx"
 
 function App() {
   return (
-    <>
-      <h1 className="text-black text-3xl">Toloka</h1>
-    </>
+    <div className='app'>
+      <Navbar />
+      <Landing />
+    </div>
   )
 }
 
