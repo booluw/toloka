@@ -1,8 +1,12 @@
 import Navbar from './components/Navbar.jsx';
+import Landing from "./components/Landing.jsx"
 
 function App() {
   return (
-   <Navbar/>
+    <div className='app'>
+      <Navbar />
+      <Landing />
+    </div>
   )
 }
 
